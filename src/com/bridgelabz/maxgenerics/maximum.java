@@ -43,6 +43,5 @@ public class maximum {
         maximum max = new maximum();
         
         max.max_Int();
-
     }
 }
