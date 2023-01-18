@@ -36,46 +36,13 @@ public class maximum {
 
 	}
 	
-	void max_Flaot() {
-		
-		System.out.println(" ");
-		System.out.println(" Flaot numbers ");
-		System.out.println(" ");
-		
-        System.out.println(" Enter the first number: ");
-        float n1 = sc.nextFloat();
-        
-        System.out.println(" Enter the second number: ");
-        float n2 = sc.nextFloat();
-        
-        System.out.println(" Enter the third number: ");
-        float n3 = sc.nextFloat();
-        
-
-        if(n1 > n2 && n1 > n3){
-        	System.out.println(" ");
-            System.out.println( n1 + " is the greatest");
-        }
-        else if( n2 > n3)
-        {
-        	System.out.println(" ");
-        	System.out.println( n2 + " is the greatest");
-        }
-        else
-        {
-        	System.out.println(" ");
-        	System.out.println( n3 + " is the greatest");
-        }
-
-
-	}
+	
     
 	public static void main(String[] args) {
     	
         maximum max = new maximum();
         
         max.max_Int();
-        max.max_Flaot();
 
     }
 }
