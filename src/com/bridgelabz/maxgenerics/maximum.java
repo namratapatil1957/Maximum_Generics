@@ -76,6 +76,5 @@ public class maximum {
         
         max.max_Int();
         max.max_Flaot();
-
     }
 }
