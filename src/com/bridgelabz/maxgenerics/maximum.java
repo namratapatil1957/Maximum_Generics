@@ -37,7 +37,6 @@ public class maximum {
 	}
 	
 	
-    
 	public static void main(String[] args) {
     	
         maximum max = new maximum();
